@@ -1,38 +1,76 @@
-# Project System Game of Xadrez
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Lucasdev796/chess-system-java/blob/master/LICENSE)
+# ♟ Chess System Java
 
-# Sobre o projeto
- O "Project System Game of Xadrez" é uma aplicação Back-end, construída através da linguigem Java, versão 17 jdk, desenvolvida através do Curso Java com o Professor Nélio Alves (https://github.com/acenelio). A aplicação consiste em compilar um tabuleiro de Xadrez na IDE, com todas as funcionalidades que um jogo de xadrez deve obter.
- 
-## Layout
-![Xadrez](https://github.com/user-attachments/assets/dc36afb8-0e7f-4398-afaf-13cf57e9d3a8)
+Projeto de um sistema de xadrez desenvolvido em Java, com interface de console. Criado como exercício para prática de lógica de programação, estrutura de dados e princípios de orientação a objetos.
 
-# Tecnologias utilizadas
-## Back end
-- Java
-- Git Bash
-- Ide Eclipse
+## 📖 Descrição
 
-# Como executar o projeto
+Este sistema simula um jogo de xadrez jogado no console. O foco principal é a construção de um projeto orientado a objetos, usando boas práticas de codificação em Java.
 
-## Back end
-### Pré-requisitos:
-Java 17
-Ide Eclipse
-Git Bash
+O projeto cobre diversos conceitos fundamentais como:
+- Manipulação de matrizes
+- Encapsulamento e abstração
+- Herança e polimorfismo
+- Controle de fluxo
+- Validação de jogadas
 
-```bash
-# clonar repositório
-git clone (https://github.com/Lucasdev796/chess-system-java/tree/master)
+## ⚙️ Tecnologias e Conceitos
 
-# entrar na pasta do projeto back end
-C:\Estudos\chess-system\bin
+- **Java SE**
+- Programação orientada a objetos (POO)
+- Manipulação de array bidimensional
+- Console (System.in / System.out)
+- Boas práticas de codificação
 
-# executar o projeto
-Git Bash here na pasta Bin ou, Run na Ide Eclipse.
-```
-# Autor
+## 📸 Demonstração
 
-Lucas Silva Costa Bezerra
+```txt
+  a b c d e f g h
+8 [r][n][b][q][k][b][n][r] 8
+7 [p][p][p][p][p][p][p][p] 7
+6 [ ][ ][ ][ ][ ][ ][ ][ ] 6
+5 [ ][ ][ ][ ][ ][ ][ ][ ] 5
+4 [ ][ ][ ][ ][ ][ ][ ][ ] 4
+3 [ ][ ][ ][ ][ ][ ][ ][ ] 3
+2 [P][P][P][P][P][P][P][P] 2
+1 [R][N][B][Q][K][B][N][R] 1
+  a b c d e f g h
+🧠 Aprendizados
+Durante o desenvolvimento do projeto, pratiquei:
 
-https://www.linkedin.com/in/lucas-costa-894397255/
+Construção de uma aplicação modular
+
+Separação de responsabilidades em diferentes classes
+
+Lógica de regras do xadrez (validação de movimentos)
+
+Interação com o usuário via console
+
+🚀 Como executar
+Clone o repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/Lucasdev796/chess-system-java
+Importe o projeto na sua IDE (ex: IntelliJ, Eclipse)
+
+Execute a classe Program.java
+
+📂 Estrutura do Projeto
+css
+Copiar
+Editar
+src/
+├── application/
+│   └── Program.java
+├── boardgame/
+│   ├── Board.java
+│   ├── Position.java
+│   └── ...
+└── chess/
+    ├── ChessMatch.java
+    ├── ChessPiece.java
+    └── ...
+
+🧑‍💻 Autor
+Lucas Costa
